@@ -26,7 +26,6 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 
-
   void checkconnectivity() async {
     var connectivityresult = await Connectivity().checkConnectivity();
 
