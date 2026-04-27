@@ -34,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
       if (hasInternet) {
         Timer(
-          Duration(seconds: 3),
+          Duration(seconds: 4),
               () => Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (context) => AdminLoginScreen()),
